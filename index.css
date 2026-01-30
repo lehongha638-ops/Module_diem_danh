@@ -1106,6 +1106,7 @@ html, body {
 }
 
 .modal-content {
+    min-width: 80%;
     background: var(--card-bg);
     border-radius: 12px;
     width: 100%;
@@ -1145,9 +1146,9 @@ html, body {
 }
 
 .modal-body {
+    max-height: 70vh;
     padding: 24px;
     line-height: 1.6;
-    max-height: 80vh;
     overflow-y: auto;
 }
 
